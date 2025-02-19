@@ -22,6 +22,12 @@
 
 @media screen and (max-width: 499px) {
     
-    
-    
+    .jv-contests {
+        flex-direction: column;
+    }
+
+    #jv-and-tcg div:last-of-type {
+        flex-direction: column;
+    }
+
 }
