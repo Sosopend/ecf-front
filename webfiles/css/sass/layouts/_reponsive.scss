@@ -26,30 +26,35 @@
 @media screen and (max-width: 720px) {
     .jv-contests {
         flex-direction: column;
-       
+        h3 {
+            margin-top: 1rem;
+        }
     }
 
-    #jv-and-tcg div:last-of- type{
+    #jv-and-tcg div:last-of-type {
         flex-direction: column;
-
+        h3 {
+            margin-top: 1rem;
+        }
     }
+
     #cosplay {
         img {
             width: 100%;
         }
+    }
 }
 
 @media screen and (max-width: 499px) {
     footer {
-    .mxwdth {
-        flex-direction: column;
+        .mxwdth {
+            flex-direction: column;
 
-         section {
-            width: 100%;
+            section {
+                width: 100%;
+            }
         }
     }
-    }
-}
 }
 
 @media screen and (max-width: 400px) {
