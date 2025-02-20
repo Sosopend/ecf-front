@@ -9,7 +9,8 @@
         content="La convention du jeu vidéo la plus célèbre des Hauts-de-France sera de retour les 24, 25, 26, 27 et 28 février prochains ! Êtes vous prêt.e.s ?">
     <link rel="icon" type="image/x-icon" href="./src/icons/favicon.ico">
     <link rel="stylesheet" href="./webfiles/css/build/pages/home.css">
-    <script src="./webfiles/javascript/script.js"></script>
+
+    <script src="./webfiles/javascript/script.js" defer></script>
     <title>Soissons Game Show - L'événement signe son grand retour après 7 ans d'absence !</title>
 </head>
 
@@ -22,10 +23,20 @@
                 <span>Soissons Game Show</span>
             </a>
             <button id="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span id="firstRod"></span>
+                <span id="secondRod"></span>
+                <span id="lastRod"></span>
             </button>
+        </nav>
+        <nav class="navburger">
+            <ul>
+                <li><a href="#intro" aria-label="En cliquant, vous serez redirigé vers la section d'accueil du Soissons Game Show" title="En cliquant, vous serez redirigé vers la section d'accueil du Soissons Game Show">Accueil</a></li>
+                <li><a href="#jv-and-tcg" aria-label="En cliquant, vous serez redirigé vers la section jeux-vidéos et tcg du Soissons Game Show" title="En cliquant, vous serez redirigé vers la section jeux-vidéos et tcg du Soissons Game Show">Jeux Vidéo & TCG</a></li>
+                <li><a href="#guests" aria-label="En cliquant, vous serez redirigé vers la section des invités du Soissons Game Show" title="En cliquant, vous serez redirigé vers la section des invités du Soissons Game Show">Invités</a></li>
+                <li><a href="#cosplay" aria-label="En cliquant, vous serez redirigé vers la section cosplay du Soissons Game Show" title="En cliquant, vous serez redirigé vers la section cosplay du Soissons Game Show">Cosplay</a></li>
+                <li><a href="#partners" aria-label="En cliquant, vous serez redirigé vers la section des partenaires du Soissons Game Show" title="En cliquant, vous serez redirigé vers la section des partenaires du Soissons Game Show">Partenaires</a></li>
+                <li><a href="#location" aria-label="En cliquant, vous serez redirigé vers la section contact du Soissons Game Show" title="En cliquant, vous serez redirigé vers la section contact du Soissons Game Show">Contact</a></li>
+            </ul>
         </nav>
 
         <section id="intro">
