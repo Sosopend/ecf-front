@@ -1,6 +1,11 @@
-const button = document.querySelector("#burger-icon"); // Permet de sélectionner le bouton burger et de le stocker dans la variable button
-const responsiveNav = document.querySelector(".navburger"); // Permet de sélectionner le corps du burger-menu et de le stocker dans la variable responsiveNav
+// Sélectionne le bouton du menu burger
+const button = document.querySelector("#burger-icon");
 
-button.addEventListener("click", function() { // Permet d'ajouter un événement au bouton burger (ici le click)
-  responsiveNav.classList.toggle("hidden"); // Permet d'ajouter ou retirer la classe hidden à responsiveNav lorsque le bouton est cliqué
+// Sélectionne le menu de navigation qui s'affichera ou se cachera
+const responsiveNav = document.querySelector(".navburger");
+
+// Ajoute un écouteur d'événements sur le bouton burger
+button.addEventListener("click", function() {
+    // Ajoute ou enlève la classe "open" pour afficher/masquer le menu
+    responsiveNav.classList.toggle("open");
 });
