@@ -19,6 +19,22 @@ header{
     box-sizing: border-box;
     margin-bottom: 8rem;
 
+    #burger-icon {
+        .firstRod {
+            transform: rotate(45deg);
+            transition: all 0.5s;
+        }
+        .secondRod {
+            transform: rotate(-45deg);
+            top: 6px;
+            transition: all 0.5s;
+        }
+        .hiddenRod {
+            opacity: 0;
+            transition: all 0.5s;
+        }
+    }
+
     .navburger {
         position: fixed;
         top: 0;
