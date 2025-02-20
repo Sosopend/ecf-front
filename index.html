@@ -9,6 +9,7 @@
         content="La convention du jeu vidéo la plus célèbre des Hauts-de-France sera de retour les 24, 25, 26, 27 et 28 février prochains ! Êtes vous prêt.e.s ?">
     <link rel="icon" type="image/x-icon" href="./src/icons/favicon.ico">
     <link rel="stylesheet" href="./webfiles/css/build/pages/home.css">
+
     <script src="./webfiles/javascript/script.js" defer></script>
     <title>Soissons Game Show - L'événement signe son grand retour après 7 ans d'absence !</title>
 </head>
@@ -202,18 +203,19 @@
                         renseignement complémentaire&nbsp;?</p>
                     <form action="#" method="POST">
                         <fieldset>
-                            <input type="text" name="lastname" placeholder="Votre nom*">
-                            <input type="text" name="firstname" placeholder="Votre prenom*">
+                            <input type="text" name="lastname" placeholder="Votre nom*" id="lastName">
+                            <input type="text" name="firstname" placeholder="Votre prenom*" id="firstName">
                         </fieldset>
-                        <input type="email" name="mail" placeholder="Votre email*">
-                        <input type="text" name="object" placeholder="Objet*">
-                        <textarea name="message" placeholder="Votre message*"></textarea>
+                        <input type="email" name="mail" placeholder="Votre email*" id="mail">
+                        <input type="text" name="object" placeholder="Objet*" id="object">
+                        <textarea name="message" placeholder="Votre message*" id="message"></textarea>
                         <label>* Champs obligatoires</label>
                         <fieldset>
                             <input type="checkbox" name="agreement" id="agreed">
                             <label for="agreed">En soumettant ce formulaire, j'admets être en accord avec les mentions
                                 légales.</label>
                         </fieldset>
+                        <div id="erreur" class="erreur-cache"></div>
                         <button type="submit">
                             <span class="content">
                                 <span>Envoyer le message</span>
