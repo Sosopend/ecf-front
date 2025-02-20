@@ -1,10 +1,4 @@
-@media screen and (max-width: 768px) {
-
-    header {
-        nav {
-            margin-bottom: 35.4375rem;
-        }
-    }
+@media screen and (max-width: 1100px) {
     .partners-container {
         display: flex;
         flex-wrap: wrap;
@@ -20,15 +14,48 @@
     }
 }
 
-@media screen and (max-width: 499px) {
-    
+@media screen and (max-width: 768px) {
+
+    header {
+        nav {
+            margin-bottom: 35.4375rem;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
     .jv-contests {
         flex-direction: column;
+       
     }
 
-    #jv-and-tcg div:last-of-type {
+    #jv-and-tcg div:last-of- type{
         flex-direction: column;
-    }
 
-   
+    }
+    #cosplay {
+        img {
+            width: 100%;
+        }
+}
+
+@media screen and (max-width: 499px) {
+    footer {
+    .mxwdth {
+        flex-direction: column;
+
+         section {
+            width: 100%;
+        }
+    }
+    }
+}
+}
+
+@media screen and (max-width: 400px) {
+    #jv-and-tcg {
+        img {
+            width: 75%;
+        }
+    }
 }
