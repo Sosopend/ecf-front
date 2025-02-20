@@ -104,6 +104,18 @@ footer{
         }
     }
 
+    .erreurCache {
+        display: none;
+    }
+    
+    .erreurVisible {
+        display: block;
+        color: #000000;
+        font-family: 'Roboto Mono Refular';
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
     #location{
 
         #map-container{
