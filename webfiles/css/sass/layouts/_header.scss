@@ -18,7 +18,10 @@ header{
     padding: 0 1.25rem;
     box-sizing: border-box;
     margin-bottom: 8rem;
-
+    
+    .hidden {
+        display: none;
+    }
     section{
         max-width: 550px;
     }
